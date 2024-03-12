@@ -31,7 +31,7 @@ export abstract class DioAccount{
         return this.status;
     }
 
-    /*validateStatus = (): boolean =>{
+    /*private validateStatus = (): boolean =>{
         if(this.status){
             return this.status;
         }
